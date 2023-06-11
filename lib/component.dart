@@ -19,3 +19,10 @@ Widget defaultButton({
         ),
       ),
     );
+
+
+
+void navigateTo(BuildContext context,widget) {
+  Navigator.of(context)
+      .push(MaterialPageRoute(builder: (context) => widget));
+}

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "677674923371",
+    "project_id": "smart-glass-f27b0",
+    "storage_bucket": "smart-glass-f27b0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:677674923371:android:2793ada0ac009a5469482e",
+        "android_client_info": {
+          "package_name": "com.example.untitled1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "677674923371-k52drcuhr7ppde7ek6nne7643hhsk0v5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDP6l-fD9z3WwHgllASjlMKxVM9OuOtkH4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "677674923371-k52drcuhr7ppde7ek6nne7643hhsk0v5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

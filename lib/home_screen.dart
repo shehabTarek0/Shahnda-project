@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:untitled1/login_screen.dart';
+
+import 'login_screen.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
@@ -12,7 +13,7 @@ class HomeScreen extends StatelessWidget {
           Expanded(
             child: Container(
               color: Theme.of(context).colorScheme.primaryContainer,
-              child: LoginScreen(),
+              child: const LoginScreen(),
             ),
           ),
         ],

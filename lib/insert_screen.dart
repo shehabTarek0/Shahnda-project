@@ -1,6 +1,7 @@
 // ignore_for_file: unused_element
 
 import 'package:flutter/material.dart';
+import 'package:untitled1/login_screen.dart';
 import 'package:untitled1/register_screen.dart';
 
 class InsertScreen extends StatelessWidget {
@@ -93,6 +94,11 @@ class InsertScreen extends StatelessWidget {
 
   void _navigateToRegistrScreen(BuildContext context) {
     Navigator.of(context)
-        .push(MaterialPageRoute(builder: (context) => RegistrScreen()));
+        .push(MaterialPageRoute(builder: (context) => const RegistrScreen()));
   }
+}
+
+void _navigateToLoginScreen(BuildContext context) {
+  Navigator.of(context)
+      .push(MaterialPageRoute(builder: (context) => const LoginScreen()));
 }

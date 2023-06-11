@@ -1,7 +1,8 @@
 // ignore_for_file: avoid_print
 
 import 'package:flutter/material.dart';
-import 'package:untitled1/home_screen.dart';
+import 'package:untitled1/component.dart';
+import 'package:untitled1/login_screen.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
@@ -36,7 +37,7 @@ class HomePage extends StatelessWidget {
             ),
             ElevatedButton(
               onPressed: () {
-                _navigateToUserScreen(context);
+                navigateTo(context, const LoginScreen());
               },
               style: ElevatedButton.styleFrom(
                 padding: const EdgeInsets.all(20.0),
@@ -57,10 +58,5 @@ class HomePage extends StatelessWidget {
 
   void onNotification() {
     print('notificathion clicked');
-  }
-
-  void _navigateToUserScreen(BuildContext context) {
-    Navigator.of(context)
-        .push(MaterialPageRoute(builder: (context) => const HomeScreen()));
   }
 }
